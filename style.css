@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+    height: fit-content;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.nav-container{
+    color: gray;
+    display: flex;
+    gap: 15px;
+}
+
+.home-nav:hover{
+    /* color: blue; */
+    border-bottom: 4px solid rgb(131, 173, 131);
+    padding-bottom: 9px;
+}
+
+.nav-button{
+    padding: 17px 20px 17px 20px;
+    background-color:rgb(25, 180, 25);
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    /* z-index: 1; */
+}
+
+.hero-container{
+    background-color: rgb(229, 218, 205);
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+}
+
+.banking-content{
+    background-color: rgb(216, 130, 32);
+    height: 450px;
+    display: flex;
+    padding: 0 50px;
+    gap:25px;
+}
+
+.bank-icons{
+    display: flex;
+    gap: 30px;
+    border: 1px solid red;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.img-{
+    width: 50px;
+    height: 50px;
+}
+
+.banking{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(21, 19, 19);
+}
+.miniBox{
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Content-two{
+    background-color: rgb(195, 195, 189);
+    height: 450px;
+    display: flex;
+    /* width: 100px; */
+    flex-direction: column;
+    padding: 0 50px;
+}
